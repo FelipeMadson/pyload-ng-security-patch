@@ -1,0 +1,25 @@
+{
+  "name": "pyload-ng-security-patch",
+  "version": "1.0.0",
+  "description": "Security patch and defensive hardening utilities preventing path traversal and SSRF attacks in download management engines",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/security.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "security",
+    "vulnerability",
+    "path-traversal",
+    "ssrf",
+    "hardening",
+    "pyload"
+  ],
+  "author": "Felipe Madson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}
