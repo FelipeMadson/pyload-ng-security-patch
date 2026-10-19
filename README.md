@@ -35,4 +35,4 @@ ssrf.assertSafeUrl('https://example.com/archive.tar.gz');
 
 ## License
 
-MIT © [Felipe Madson](https://github.com/FelipeMadson)
+MIT © [Felipe Madison](https://github.com/FelipeMadson)
